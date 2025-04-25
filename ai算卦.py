@@ -29,7 +29,7 @@ def ai_interpret(question: str, gua: str, line_change: int, api_key: str) -> str
         f"並對求卦者做詳盡分析。\n\n"
         f"求卦者問題：{question}\n"
         f"卦名：{gua}\n"
-        f"變爻：第 {line_change + 1} 爻（{YAO[line_change]}）\n\n"
+        f"變爻：第 {line_change + 1} 爻（{YAO[line_change]}\n\n"
         "請先引用該卦的【卦辭】、【彖辭】和該爻的【爻辭】，"
         "然後進行詳細解讀，最後給出具體建議與吉凶判斷。"
     )
